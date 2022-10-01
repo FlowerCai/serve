@@ -25,3 +25,6 @@ const server = app.listen(3003, (req, res) => {
   console.log(port)
   console.log("blog listening at http://%s:%s", host, port);
 });
+
+
+bootstrap();
